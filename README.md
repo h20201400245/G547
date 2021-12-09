@@ -5,11 +5,11 @@ KERNEL SPACE DRIVER BUILD PROCESS :
 
 •	Build the driver by using Makefile (sudo make)
 
-•	Load the driver using sudo insmod driver.ko
+•	Load the driver using sudo insmod main.ko
 
 •	Check whether module is inserter in kernel space with lsmod.
 
-•	Unload the driver using sudo rmmod driver, after checking LEDs.
+•	Unload the driver using sudo rmmod main, after checking LEDs.
 
 USER SPACE APPLICATION BUILD PROCESS :
 
